@@ -1,0 +1,121 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    color: #FD6E0A;
+}
+.btn{
+    padding: 15px;
+    background-color: #FD6E0A;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+.nav-title{
+    padding-left: 100px;
+    color:#090303;
+    font-size: 55px;
+    font-weight: 800;
+    margin-top: 0px;
+    }
+nav > ul{
+    display: flex;
+    
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    color: #474747;
+}
+header{
+    background-color: #FFF8F3;
+    background-image: url('./images/header_bg.png'), url('./images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right , left;
+   
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    text-align: center;
+
+}
+.nabber-content{
+    text-align: left;
+    margin:50px;
+}
+.banner img{
+    height: 620px;
+}
+
+/* about */
+
+.about{
+    text-align: center;
+    margin: 150px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding:  10px 100px 100px 100px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+.info p{
+    color: #757575;
+    font-size: 20px;
+}
+.info h3{
+    color: #000000;
+    font-size: 20px;
+}
+
+/* what-i-do */
+
+.what-i-do{
+    text-align: center;
+    margin: 150px;
+    
+
+}
+.what-i-do p{
+    color: #757575;
+    font-size: 20px;
+}
+
+.skill{
+   padding: 20px;
+   text-align: left;
+   margin: 20px;
+   background-color: rgb(247, 245, 242);
+}
+.skill-list{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    
+}
+.skill p{
+    color: #757575;
+    font-size: 20px;
+   
+}
+.skill h1{
+    font-size: 30px;
+}
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 150px;
+}
+.Message input, textarea{
+    display: block;
+}
